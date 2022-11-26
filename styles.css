@@ -7,7 +7,7 @@ html{
 }
 
 .caja{
-    width: min(100%, 98%);
+    width: min(100% - 2rem, 98%);
     margin-inline: auto;
     /* background-color: #94d6d6; */
     display: grid;
@@ -19,6 +19,7 @@ html{
 
 .caja .animes .poster{
     margin-bottom: 6px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .caja .animes{
