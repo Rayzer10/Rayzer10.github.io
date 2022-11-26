@@ -20,6 +20,7 @@ html{
 .caja .animes .poster{
     margin-bottom: 6px;
     border-radius: 10px 0px 0px 10px;
+    position: relative;
 }
 
 .caja .animes{
@@ -42,10 +43,6 @@ html{
     border-radius: 10px 0px 0px 10px;
 }
 
-.caja .animes .poster{
-    position: relative;
-}
-
 .tit_studi{
     display: grid;
     align-items: flex-end;
@@ -56,6 +53,7 @@ html{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.61);
     backdrop-filter: blur(1.6px);
+    border-radius: 0px 0px 0px 10px;
 }
 
 .titulo{
